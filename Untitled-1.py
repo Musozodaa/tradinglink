@@ -105,3 +105,4 @@
 #         x = ""
 # for y in nums_list:
 #     print(y**2)
+v = pdw
