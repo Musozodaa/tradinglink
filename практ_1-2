@@ -1,0 +1,186 @@
+num = int(input("Введите положительное целое число: "))
+total = 0
+
+while num > 0:
+    digit = num % 10
+    total += digit
+    num //= 10
+
+print(total)
+
+# 2)
+count = 0
+
+while True:
+    num = int(input("Введите число: "))
+    if num == 0:
+        break
+    count += 1
+
+print(count)
+
+# 3)
+
+text = input("Введите строку: ")
+clean_text = text.replace(" ", "").lower()
+
+left = 0
+right = len(clean_text) - 1
+is_palindrome = True
+
+while left < right:
+    if clean_text[left] != clean_text[right]:
+        is_palindrome = False
+        break
+    left += 1
+    right -= 1
+
+if is_palindrome:
+    print("Да, это палиндром")
+else:
+    print("Нет, это не палиндром")
+
+# 4)
+
+from random import randint
+
+random_num = randint(1, 100)
+
+while True:
+    guess = int(input("Угадайте число от 1 до 100: "))
+    if guess > random_num:
+        print("Меньше")
+    elif guess < random_num:
+        print("Больше")
+    else:
+        print("Угадал!")
+        break
+
+# 5)
+text = input("Введите строку: ")
+vowels = "аеёиоуыэюяАЕЁИОУЫЭЮЯaeiouyAEIOUY"
+result = ""
+i = 0
+
+while i < len(text):
+    if text[i] not in vowels:
+        result += text[i]
+    i += 1
+
+print(result)
+
+# 6)
+symbol = input("Символ: ")
+height = int(input("Высота: "))
+width = int(input("Ширина: "))
+
+row = 0
+while row < height:
+    col = 0
+    while col < width:
+        print(symbol, end="")
+        col += 1
+    print()
+    row += 1
+
+# 7)
+symbol = input("Символ: ")
+height = int(input("Высота: "))
+width = int(input("Ширина: "))
+
+row = 0
+while row < height:
+    col = 0
+    while col < width:
+        if row == 0 or row == height - 1 or col == 0 or col == width - 1:
+            print(symbol, end="")
+        else:
+            print(" ", end="")
+        col += 1
+    print()
+    row += 1
+
+
+# Задание 2
+
+n = int(input("Введите число n: "))
+total = 0
+
+for i in range(1, n + 1):
+    total += i
+
+print(total)
+
+# 2)
+n = int(input("Введите число: "))
+
+for i in range(1, 11):
+    print(f"{n} * {i} = {n * i}")
+
+# 3)
+
+text = input("Введите текст: ")
+
+letters = 0
+digits = 0
+punctuation = 0
+spaces = 0
+punct_chars = ".,!?:;"
+
+for char in text:
+    if char.isalpha():
+        letters += 1
+    elif char.isdigit():
+        digits += 1
+    elif char in punct_chars:
+        punctuation += 1
+    elif char == " ":
+        spaces += 1
+
+print(f"букв = {letters}")
+print(f"цифр = {digits}")
+print(f"знаков препинания = {punctuation}")
+print(f"пробелов = {spaces}")
+
+# 4)
+n = int(input("Введите высоту пирамиды n: "))
+
+for i in range(1, n + 1):
+    
+    for _ in range(n - i):
+        print(" ", end="")
+    
+    for j in range(1, i + 1):
+        print(j, end="")
+   
+    for j in range(i - 1, 0, -1):
+        print(j, end="")
+    print()
+
+# 5)
+count = int(input("Сколько чисел вы хотите ввести? "))
+numbers = []
+
+for i in range(1, count + 1):
+    num = float(input(f"Введите число {i}: "))
+    numbers.append(num)
+
+max_num = max(numbers)
+min_num = min(numbers)
+avg_num = sum(numbers) / count
+
+above_avg = 0
+for num in numbers:
+    if num > avg_num:
+        above_avg += 1
+
+if max_num.is_integer():
+    max_num = int(max_num)
+if min_num.is_integer():
+    min_num = int(min_num)
+
+print("Результаты:")
+print(f"Максимальное: {max_num}")
+print(f"Минимальное: {min_num}")
+print(f"Среднее: {avg_num}")
+print(f"Чисел больше среднего: {above_avg}")
