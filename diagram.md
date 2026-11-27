@@ -1,1 +1,75 @@
-```mermaid https://mermaid.live/edit#pako:eNqNWE1v20YQ_SvbvaRJJNkkRUkWkBaJnIMPhI20p4g5qJZiG40lg5HRtIYBfcB1AhtxnR4CBHDSJn-AVqRI1udfmP1HxcwuJYrLBPXBkCnyzcybmfeWPuLbtXKF5_nTZ7XftndLXp39vO56bpUxxp4f_rLjlQ522WODFV0Ob8GHLvgwgQH0mJFn8AmuYSoaMASfwQymTJyAL1rQc_mTAAV_fqqXvLrxPYJ8gCl8hgn4MIKBy5_cZsnkD2zLKLrcSDF4A31xIVrinImX0AEfrkVDtBNMtERDXMAMhjBgMMBAAxjDQLyOhNoyJKBZdLmZYvBetGAoGuKMQGEKQwyeYOJUtGAK1wxmogFT6EAPY8BABqc6RDsKbkpwq-hyK8XgX0QQDbr3nBFGEz9gwDbMYCLO4AbBRuDDWFIEXZjCWIe2CHrdOCKSfBhiQnj3SFwwfEA0iWufiTZ8gR6Da0wWhgj3o8uPw2jryAKDv-Az-DLldNHlaSRYnMGE8mwhk3NchrRQhjCGKdzAUEtRgV5BLwC1iy63Uwz-AV80sTU4H5LABvjQJ3KmoklDo8h4ifhYGZExVqn4MI4SklYxli7a8mKm6PJMitFI3shKOkw0YQQ96Iq2eC1e4W8m2cHS4rqZkZSbSPlVUP0Ip1mc4FycwQi7SRmKc41jM8pxtujybIrBB6q6BT3RoKk6D4EhuUOauJvwUE_hJsq2GWF73cI83-GsiktsGGFidkSxHFzarC5Mo8luZRXGUggrWkGu6PJcUEF8AOIIV5CyplSimVvROVkrunwNYWn0z0JA4gw7F26TJh5bOQWydHFN1pNGTt6IJu5DuNdnwZaIttxQGGn9S0fTzMR8vSBn3Z7PyVC0xQmuEYPP1MI-hb2gokRTtHEPGH1skdL5qAtaAnaUfmMVZXCVmKLhWbDVEU2c5zm-vp12tByDRBVV9VNIpcK6Sm3so9hoCqnJ6moAunxZyu3DalnK-xvRFJcJYn3hDBQBpjARp9BT4LcDmEq1jB910zFjTMfM0xCJE5hClyZnDD7yB_04yzG_YTkbm0ZxJTCdDuLlkT1_WcaaMIMBLgAM5cQOSdinMHT5ylLAjU1JhWMo5wlZGXZsjI8GeyNeQg9G4hJhllAcBSJ94Eqq_QgG4k8cNrSOL9DFNo3EubgUrehMOZryO6Yyqw_kbifYfVRM2e0-taUVzUKTescK-YdS3AH0lZthkwf0mUx1FhhiV0q86pA2VI6psJcuSiN00spbQjS2kDTowReiEtnsyEnQkaV5OLbyCcw6tAIxRoHe_QpzxqrmbR_qyLZqELnGRzo5-Ev2iQbS-6prOJptOBllG2_V8E1EO6h3jt6JVK81LOoWTlZJ-dXCIoe06W3xOknrdE06ci73c4ybqeNmVLXWUbDc6qA3Zwg70QzOQbrKOtkAYTnfqEc4dtz3IZZyIQ_BoQtqorJEU1oAngPItHBPBgvlvFT9GVGV-lHAyaks05HjFz0VCjCRtgITva9Rv3DWAjFfjDCuhoTWGhh1I0f6zSVqtZSfeS4NnAU2X2Uf8bR81gKU5TBRz3Gk56AMvocZWdVcHIJY-uHE0dzGkW5jzk-DS1iiieaoJFicxh54HGUxG5smCbOl9jbQ5rfStYIdRisZUsdni2noBsfXqDo7yqg2Ns1l0TYD_zLD_qVMEaV-ACPM_n9ZlhVjWVaewTssXJwT4ghHAb0xzrCsbxhWQTlWYFdIAW5gD0bsfoI9UGY-oQnzWe0gykEhsKgCuUvtgN27x27dvcWis1PQTKRAL2iPKs_ZPXaf3WUPIskXNMMokECqGMm4GKYWwwzFSMbEMLUY1iLGnbgYlhbDCsW4ExPD0mKkFzFW4mJE975Ai_sAH1iNuT26gA89T7U1NOsf8QB7SpNIWz-hszI5ao9WSJ31ezRWfXHxndZsbUML9A4Y1L4SU3tUgh56nqmlhl_P6NSAcyxf6oKxQxvtiEsYadmo1_KCWu4FIqMzA719g88eVZ7rj5rzR5evW1-5no6_Htp1uWZ_q-NKB6bh7cYfbMr85sgXpvaF0gOe4DveXpnn695hJcH3K95-Cf_kR3iby-u7lf2Ky_PM5V6lfPgiWS55vya3a89qnsvd6jFP8INS9XGtth9AeLXDnd3gj8ODcqleWd8r7XilxR2VarniFWqH1TrPW4ZNEDx_xF_wfDqTMm0zm8nkMqvpdCZr2wn-O88nzdVUJmNlrZxtGpmcZRwn-B8U1EiZOWMtnU4bq7adzmUMM8Er5b16zXPkf4m2a9Wnezv8-D-hZyLN ```
+```mermaid flowchart TD
+    subgraph Z1 ["Задание 1: Уборка по хате"]
+        Start1(["Погнали"]) --> P1["1. Взять швабру, тряпки и химию"]
+        P1 --> P2["2. Открыть окна, чтоб проветрить хату"]
+        P2 --> P3["3. Собрать весь крупный хлам по дому"]
+        P3 --> D1{"Пакет для мусора уже битком?"}
+        D1 -- Ага --> P4["4. Вынести мусор на помойку"]
+        D1 -- Неа --> P5["5. Раскидать разбросанный шмот по местам"]
+        P4 --> P5
+        P5 --> P6["6. Зайти в следующую комнату"]
+        P6 --> D2{"На полках пыль есть?"}
+        D2 -- Ага --> P7["7. Протереть пыль мокрой тряпкой"]
+        D2 -- Неа --> D3{"Ковёр пылесосить надо?"}
+        P7 --> D3
+        D3 -- Ага --> P8["8. Пропылесосить пол и ковёр"]
+        D3 -- Неа --> P9["9. Помыть полы в комнате"]
+        P8 --> P9
+        P9 --> D4{"Все комнаты уже убрал?"}
+        D4 -- Неа --> P6
+        D4 -- Ага --> D5{"На кухне грязная посуда осталась?"}
+        D5 -- Ага --> P10["10. Перемыть всю посуду"]
+        D5 -- Неа --> P11["11. Убрать швабру и закрыть окна"]
+        P10 --> P11
+        P11 --> End1(["Всё, уборка закончена"])
+    end
+
+    subgraph Z2 ["Задание 2: Поход в магаз"]
+        Start2(["Погнали"]) --> IO1[/"1. Ввод: Накидать список покупок"/]
+        IO1 --> M1["2. Взять сумку и кошелёк"]
+        M1 --> MD1{"На улице дождь льёт?"}
+        MD1 -- Ага --> M2["3. Прихватить зонт"]
+        MD1 -- Неа --> M3["4. Выйти из дома и дотопать до магаза"]
+        M2 --> M3
+        M3 --> M4["5. Взять тележку у входа"]
+        M4 --> M5["6. Выбрать следующую вещь из списка"]
+        M5 --> MD2{"Товар на полке есть?"}
+        MD2 -- Ага --> M6["7. Закинуть товар в тележку"]
+        MD2 -- Неа --> M7["8. Найти какую-нибудь замену"]
+        M6 --> MD3{"Всё по списку собрал?"}
+        M7 --> MD3
+        MD3 -- Неа --> M5
+        MD3 -- Ага --> M8["9. Подойти к кассе и выложить всё на ленту"]
+        M8 --> MD4{"Пакет на кассе нужен?"}
+        MD4 -- Ага --> M9["10. Взять пакет"]
+        MD4 -- Неа --> MD5{"Бабок на карте хватает?"}
+        M9 --> MD5
+        MD5 -- Ага --> M10["11. Оплатить картой"]
+        MD5 -- Неа --> M11["12. Расплатиться наличкой"]
+        M10 --> IO2[/"13. Вывод: Забрать чек и пойти домой"/]
+        M11 --> IO2
+        IO2 --> End2(["Всё, закупился"])
+    end
+
+    subgraph Z3 ["Задание 3: Калькулятор"]
+        Start3(["Погнали"]) --> CIO1[/"Ввод чисел A, B и знака op"/]
+        CIO1 --> CD1{"op == '+' ?"}
+        CD1 -- Ага --> CP1["Res = A + B"]
+        CD1 -- Неа --> CD2{"op == '-' ?"}
+        CD2 -- Ага --> CP2["Res = A - B"]
+        CD2 -- Неа --> CD3{"op == '*' ?"}
+        CD3 -- Ага --> CP3["Res = A * B"]
+        CD3 -- Неа --> CD4{"op == '/' ?"}
+        CD4 -- Ага --> CD5{"B == 0 ?"}
+        CD5 -- Ага --> Err1[/"Вывод: Ты чё, на ноль делить нельзя!"/]
+        CD5 -- Неа --> CP4["Res = A / B"]
+        CD4 -- Неа --> Err2[/"Вывод: Непонятный знак ввёл"/]
+        CP1 --> CIO2[/"Вывод ответа Res"/]
+        CP2 --> CIO2
+        CP3 --> CIO2
+        CP4 --> CIO2
+        CIO2 --> End3(["Готово"])
+        Err1 --> End3
+        Err2 --> End3
+    end
+ ```
