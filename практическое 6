@@ -1,0 +1,31 @@
+name = input("Введите ваше ФИО через пробел: ")
+formatted_name = name.title()
+print(f"Добро пожаловать {formatted_name}")
+
+# 2)
+text = input("Введите произвольный текст: ")
+str1, str2 = input("Введите строку1 и строку2 через пробел: ").split()
+result = text.replace(str1, str2)
+print(result)
+
+# 3)
+text = input("Введите произвольный текст: ")
+step = int(input("Введите шаг: "))
+print(text[::step])
+
+# 4)
+text = input("Введите произвольный текст: ")
+num1, num2 = map(int, input("Введите начало и конец отрезка через пробел: ").split())
+print(text[num1 - 1:num2])
+
+# 5)
+text = input("Введите произвольный текст: ")
+word = input("Введите слово для поиска: ")
+
+count = text.count(word)
+first_index = text.find(word)
+clean_text = text.replace(word, "")
+
+print(f"Количество встреченных слов: {count}")
+print(f"Индекс первого встреченного слова: {first_index}")
+print(f"Текст без слова: {clean_text}")
